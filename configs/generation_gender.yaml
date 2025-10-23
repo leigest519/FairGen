@@ -1,0 +1,13 @@
+prompts: ["A photo of a worker"]
+negative_prompt: "bad anatomy,watermark,extra digit,signature,worst quality,jpeg artifacts,normal quality,low quality,long neck,lowres,error,blurry,missing fingers,fewer digits,missing arms,text,cropped,Humpbacked,bad hands,username"
+unconditional_prompt: ""
+width: 512
+height: 512
+num_inference_steps: 30
+guidance_scale: 7.5
+seed: 0
+generate_num: 8
+save_path: "generated_images_gender/{}/{}.png"
+# two categories: male, female (uniform)
+pmf: [0.5, 0.5]
+alpha: 1.0

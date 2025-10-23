@@ -1,0 +1,10 @@
+- target: ""
+  action: "fairgen"
+  fairgen_group: ""
+  fairgen_category: "female"
+  eta: 1.0
+  guidance_scale: 1.0
+  resolution: 512
+  batch_size: 1
+  dynamic_resolution: true
+  sampling_batch_size: 4
