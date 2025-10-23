@@ -2,11 +2,6 @@
 
 FairGen reduces bias in text-to-image diffusion models by attaching and training lightweight attribute-specific adapters only at cross-attention layers. During inference, a distribution indicator selects the adapter per sample so generated sets follow a prescribed target distribution (e.g., uniform over gender or race).
 
-## Method (Brief)
-- Attach 1-D adapters to UNet cross-attention layers; each adapter corresponds to one attribute category.
-- Self-discovering optimization: align adapter-enabled noise prediction to a composed target ε that steers toward the attribute direction without extra data.
-- Inference-time distribution indicator: sample a category according to a target PMF and activate the corresponding adapter; optional alpha scaling controls strength.
-
 ## Setup
 ```bash
 conda create -n fairgen python=3.10
