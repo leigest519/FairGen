@@ -1,4 +1,4 @@
-# FairGen: Debiasing Diffusion Models with Attribute Adapters
+# FairGen: Enhancing Fairness in Text-to-Image Diffusion Models via Self-Discovering Latent Directions 
 
 FairGen reduces bias in text-to-image diffusion models by attaching and training lightweight attribute-specific adapters only at cross-attention layers. During inference, a distribution indicator selects the adapter per sample so generated sets follow a prescribed target distribution (e.g., uniform over gender or race).
 
