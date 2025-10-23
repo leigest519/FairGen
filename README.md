@@ -41,5 +41,6 @@ python infer_fairgen.py \
   --categories 4 --uniform
 ```
 
- 
+## Acknowledgement
+We thank the authors of the following repos: ESD (https://github.com/rohitgandikota/erasing) and SPM (https://github.com/Con6924/SPM/tree/main) for their excellent work.
 
